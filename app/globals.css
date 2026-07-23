@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand: green + orange */
+    --background: 150 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary = deep green */
+    --primary: 152 56% 24%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary = soft green surface */
+    --secondary: 152 40% 94%;
+    --secondary-foreground: 152 56% 20%;
+
+    --muted: 152 30% 96%;
+    --muted-foreground: 222 13% 46%;
+
+    /* Accent = warm orange */
+    --accent: 24 90% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 152 20% 90%;
+    --input: 152 20% 88%;
+    --ring: 152 56% 24%;
+
+    --success: 142 71% 45%;
+    --warning: 38 92% 50%;
+    --error: 0 72% 51%;
+
+    --chart-1: 152 56% 36%;
+    --chart-2: 24 90% 53%;
+    --chart-3: 152 40% 60%;
+    --chart-4: 38 92% 50%;
+    --chart-5: 172 60% 40%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    /* Aurora mesh background — soft green/orange orbs over a clean base */
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(at 12% 8%, hsl(152 56% 30% / 0.16) 0px, transparent 45%),
+      radial-gradient(at 88% 4%, hsl(24 90% 55% / 0.12) 0px, transparent 42%),
+      radial-gradient(at 78% 92%, hsl(152 50% 36% / 0.12) 0px, transparent 48%),
+      radial-gradient(at 18% 88%, hsl(38 92% 55% / 0.10) 0px, transparent 44%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  .bg-grid {
+    background-image: linear-gradient(
+        to right,
+        hsl(var(--border) / 0.6) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, hsl(var(--border) / 0.6) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .bg-dots {
+    background-image: radial-gradient(
+      hsl(var(--primary) / 0.12) 1px,
+      transparent 1px
+    );
+    background-size: 22px 22px;
+  }
+}
+
+/* Reveal-on-scroll animation utility */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Custom cursor: hide native cursor on fine pointers, set base styles */
+@media (pointer: fine) {
+  .cursor-dot,
+  .cursor-ring {
+    will-change: transform;
+  }
+}
+
+@keyframes loaderbar {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(320%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  body {
+    background-image: none;
+  }
+}
