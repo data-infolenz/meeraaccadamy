@@ -19,8 +19,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_ORG_ID: team_VOl9PLT33vKgSQb6FkrlZUcP
+  VERCEL_PROJECT_ID: prj_Kt1X8HFpcIvQ7Ls6ZEZ5TTGfFZ4C
 
 jobs:
   preview:
