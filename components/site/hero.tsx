@@ -72,7 +72,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-pulse-ring rounded-full bg-accent" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
             </span>
-            Admissions Open 2026
+            Admissions Open 2026-2027
           </span>
 
           <h1
@@ -152,7 +152,7 @@ export function Hero() {
             <p className="text-xs font-semibold text-muted-foreground">Personal Mentoring</p>
           </div>
           <div className="glass absolute right-3 top-5 hidden max-w-[190px] rounded-lg px-4 py-3 sm:block lg:-right-5">
-            <p className="font-display text-lg font-extrabold text-accent">Admissions Open 2026</p>
+            <p className="font-display text-lg font-extrabold text-accent">Admissions Open 2026-2027</p>
             <p className="text-xs font-semibold text-muted-foreground">Structured Study Plan</p>
           </div>
           <div className="glass absolute bottom-16 right-4 hidden max-w-[180px] items-center gap-2 rounded-lg px-4 py-3 md:flex">

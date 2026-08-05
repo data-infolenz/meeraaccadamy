@@ -22,18 +22,18 @@ export function AdmissionCTA() {
               <span className="absolute inline-flex h-full w-full animate-pulse-ring rounded-full bg-white" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
             </span>
-            Admissions Open 2026
+            Admissions Open 2026-2027
           </span>
 
           <h2
             id="cta-heading"
-            className="mx-auto mt-5 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-balance sm:text-4xl lg:text-[2.75rem]"
+            className="mx-auto mt-5 max-w-3x2 font-display text-3xl font-extrabold  tracking-tight text-balance sm:text-10xl lg:text-[2.75rem]"
           >
-            Take the First Step Toward Your NEET or JEE Goal
+            Secure Your Seat Today 
+             <br/> Start Your Preparation with  Meera Academy
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base text-primary-foreground/85 text-pretty lg:text-lg">
-            Talk to our counsellor today. Get a free personalised plan and find
-            the program that matches your ambition.
+            Connect with our counsellor today for a free personalized plan and discover the right course to begin your success journey.
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

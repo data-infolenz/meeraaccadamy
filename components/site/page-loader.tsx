@@ -61,7 +61,7 @@ export function PageLoader() {
           Meera Academy
         </p>
         <p className="mt-1.5 text-xs font-medium uppercase tracking-[0.2em] text-white/60">
-          Learn. Practice. Perform. Succeed.
+          Dream High.Aim High.Achieve High.
         </p>
 
         <div className="mt-6 h-1 w-40 overflow-hidden rounded-full bg-white/15">

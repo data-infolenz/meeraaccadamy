@@ -45,13 +45,14 @@ export function Footer() {
               </span>
               <span className="flex flex-col leading-none">
                 <span className="font-display text-lg font-extrabold text-white">Meera Academy</span>
-                <span className="text-[11px] text-white/60">Learn. Practice. Perform. Succeed.</span>
+                <span className="text-[11px] text-white/60">Dream High.Aim High.Achieve High.</span>
               </span>
             </a>
             <p className="mt-5 max-w-sm text-sm text-white/70 text-pretty">
-              A coaching institute for NEET UG, JEE Main, JEE Advanced and
-              Foundation courses. Expert faculty, regular testing and personal
-              mentoring, guiding every student from concept to result.
+              Meera Academy, Puliyangudi is committed to guiding students toward success in NEET UG, JEE Main, JEE Advanced, and Foundation courses with simple, effective, and result-focused teaching. 
+              We believe in building strong concepts from the basics and helping every student understand each topic clearly. With expert faculty, regular tests, and personal mentoring, we ensure that every learner gets the right support at the right time. 
+              Our teaching is designed to improve confidence, strengthen problem-solving skills, and prepare students to perform their best in competitive exams. At Meera Academy, we do not just teach—we inspire, guide, and help students move steadily from concept to result. 
+              Our goal is to create achievers through discipline, dedication, and continuous improvement.
             </p>
             <div className="mt-6 flex gap-3">
               {socials.map(({ icon: Icon, label, href }) => (
@@ -138,7 +139,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <p className="text-xs text-white/60">
-            NEET &amp; JEE coaching. Admissions open. Learn. Practice. Perform. Succeed.
+            NEET &amp; JEE coaching. Admissions open. Dream High.Aim High.Achieve High.
           </p>
         </div>
       </div>

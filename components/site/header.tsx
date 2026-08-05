@@ -77,7 +77,7 @@ export function Header() {
               Meera Academy
             </span>
             <span className="text-[11px] font-medium text-muted-foreground lg:text-xs">
-              Learn. Practice. Perform. Succeed.
+              Dream High.Aim High.Achieve High.
             </span>
           </span>
         </a>

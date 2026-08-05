@@ -4,15 +4,15 @@
  */
 export const siteConfig = {
   name: 'Meera Academy',
-  tagline: 'Learn. Practice. Perform. Succeed.',
-  phone: '+91 90000 00000',
-  phoneHref: 'tel:+919000000000',
-  whatsapp: '919000000000',
+  tagline: 'Dream High.Aim High.Achieve High.',
+  phone: '+91 7550175135',
+  phoneHref: 'tel:+917550175135',
+  whatsapp: '917550175135',
   whatsappText:
     "Hello Meera Academy, I'd like to know more about admissions for NEET/JEE coaching.",
-  email: 'admissions@meeraacademy.in',
-  emailHref: 'mailto:admissions@meeraacademy.in',
-  address: 'Meera Academy, Education Hub, Your City, India',
+  email: 'meeraacademy2021@gmail.com',
+  emailHref: 'mailto:meeraacademy2021@gmail.com',
+  address: 'Meera Academy, No 1 Periya Pallivasal Sannathi Street, Puliangudi: 627855',
   mapsQuery: 'Meera Academy coaching institute',
   social: {
     facebook: 'https://facebook.com',
