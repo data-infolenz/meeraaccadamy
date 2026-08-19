@@ -58,13 +58,6 @@ export function Hero() {
       className="relative overflow-hidden pt-28 lg:pt-36"
       aria-labelledby="hero-heading"
     >
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-secondary via-background to-background" />
-      <div className="absolute inset-0 -z-10 bg-dots opacity-60" aria-hidden="true" />
-      <div
-        className="absolute inset-x-0 top-0 -z-10 h-32 bg-[linear-gradient(135deg,rgba(245,27,43,0.10),rgba(33,63,114,0.12))]"
-        aria-hidden="true"
-      />
-
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 pb-20 sm:px-6 lg:grid-cols-2 lg:gap-10 lg:px-8 lg:pb-28">
         <div className="max-w-xl">
           <span className="reveal glass inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-primary">

@@ -96,7 +96,7 @@ export function Courses() {
   return (
     <section
       id="courses"
-      className="relative overflow-hidden bg-white py-20 lg:py-28"
+      className="relative overflow-hidden py-20 lg:py-28"
       aria-labelledby="courses-heading"
     >
       <div className="absolute inset-0 -z-10 bg-dots opacity-35" aria-hidden="true" />
